@@ -14,13 +14,18 @@
 		7B9F06E6194390FB00771ADF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F06E5194390FB00771ADF /* main.m */; };
 		7B9F06EA194390FB00771ADF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F06E9194390FB00771ADF /* AppDelegate.m */; };
 		7B9F06ED194390FB00771ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B9F06EB194390FB00771ADF /* Main.storyboard */; };
-		7B9F06F0194390FB00771ADF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F06EF194390FB00771ADF /* ViewController.m */; };
 		7B9F06F2194390FB00771ADF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B9F06F1194390FB00771ADF /* Images.xcassets */; };
 		7B9F06F9194390FB00771ADF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9F06F8194390FB00771ADF /* XCTest.framework */; };
 		7B9F06FA194390FB00771ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9F06D9194390FB00771ADF /* Foundation.framework */; };
 		7B9F06FB194390FB00771ADF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9F06DD194390FB00771ADF /* UIKit.framework */; };
 		7B9F0703194390FB00771ADF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B9F0701194390FB00771ADF /* InfoPlist.strings */; };
 		7B9F0705194390FB00771ADF /* Fantasy_LeagueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F0704194390FB00771ADF /* Fantasy_LeagueTests.m */; };
+		7B9F07101943930100771ADF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F070F1943930100771ADF /* HomeViewController.m */; };
+		7B9F0713194395D200771ADF /* FantasyLeagueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F0712194395D200771ADF /* FantasyLeagueViewController.m */; };
+		7B9F071619439D7500771ADF /* CountryPlayerSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F071519439D7500771ADF /* CountryPlayerSelectionViewController.m */; };
+		7B9F07191943A00700771ADF /* PickerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F07181943A00700771ADF /* PickerTableViewController.m */; };
+		7B9F0FF21944705C00249A4C /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F0FF11944705C00249A4C /* RegistrationViewController.m */; };
+		7B9F0FF41944B0FF00249A4C /* ConfigurationClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9F0FF31944B0FF00249A4C /* ConfigurationClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +50,24 @@
 		7B9F06E8194390FB00771ADF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7B9F06E9194390FB00771ADF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7B9F06EC194390FB00771ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7B9F06EE194390FB00771ADF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7B9F06EF194390FB00771ADF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7B9F06F1194390FB00771ADF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7B9F06F7194390FB00771ADF /* Fantasy LeagueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fantasy LeagueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B9F06F8194390FB00771ADF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7B9F0700194390FB00771ADF /* Fantasy LeagueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fantasy LeagueTests-Info.plist"; sourceTree = "<group>"; };
 		7B9F0702194390FB00771ADF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7B9F0704194390FB00771ADF /* Fantasy_LeagueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fantasy_LeagueTests.m; sourceTree = "<group>"; };
+		7B9F070E1943930100771ADF /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7B9F070F1943930100771ADF /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7B9F0711194395D200771ADF /* FantasyLeagueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FantasyLeagueViewController.h; sourceTree = "<group>"; };
+		7B9F0712194395D200771ADF /* FantasyLeagueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FantasyLeagueViewController.m; sourceTree = "<group>"; };
+		7B9F071419439D7500771ADF /* CountryPlayerSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryPlayerSelectionViewController.h; sourceTree = "<group>"; };
+		7B9F071519439D7500771ADF /* CountryPlayerSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryPlayerSelectionViewController.m; sourceTree = "<group>"; };
+		7B9F07171943A00700771ADF /* PickerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerTableViewController.h; sourceTree = "<group>"; };
+		7B9F07181943A00700771ADF /* PickerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerTableViewController.m; sourceTree = "<group>"; };
+		7B9F0FF01944705C00249A4C /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		7B9F0FF11944705C00249A4C /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		7B9F0FF31944B0FF00249A4C /* ConfigurationClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationClass.m; sourceTree = "<group>"; };
+		7B9F0FF51944B10300249A4C /* ConfigurationClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfigurationClass.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +129,19 @@
 			children = (
 				7B9F06E8194390FB00771ADF /* AppDelegate.h */,
 				7B9F06E9194390FB00771ADF /* AppDelegate.m */,
+				7B9F070E1943930100771ADF /* HomeViewController.h */,
+				7B9F070F1943930100771ADF /* HomeViewController.m */,
+				7B9F0711194395D200771ADF /* FantasyLeagueViewController.h */,
+				7B9F0712194395D200771ADF /* FantasyLeagueViewController.m */,
+				7B9F071419439D7500771ADF /* CountryPlayerSelectionViewController.h */,
+				7B9F071519439D7500771ADF /* CountryPlayerSelectionViewController.m */,
+				7B9F07171943A00700771ADF /* PickerTableViewController.h */,
+				7B9F07181943A00700771ADF /* PickerTableViewController.m */,
+				7B9F0FF01944705C00249A4C /* RegistrationViewController.h */,
+				7B9F0FF11944705C00249A4C /* RegistrationViewController.m */,
+				7B9F0FF31944B0FF00249A4C /* ConfigurationClass.m */,
+				7B9F0FF51944B10300249A4C /* ConfigurationClass.h */,
 				7B9F06EB194390FB00771ADF /* Main.storyboard */,
-				7B9F06EE194390FB00771ADF /* ViewController.h */,
-				7B9F06EF194390FB00771ADF /* ViewController.m */,
 				7B9F06F1194390FB00771ADF /* Images.xcassets */,
 				7B9F06E0194390FB00771ADF /* Supporting Files */,
 			);
@@ -249,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B9F06F0194390FB00771ADF /* ViewController.m in Sources */,
+				7B9F0713194395D200771ADF /* FantasyLeagueViewController.m in Sources */,
 				7B9F06EA194390FB00771ADF /* AppDelegate.m in Sources */,
 				7B9F06E6194390FB00771ADF /* main.m in Sources */,
+				7B9F071619439D7500771ADF /* CountryPlayerSelectionViewController.m in Sources */,
+				7B9F07101943930100771ADF /* HomeViewController.m in Sources */,
+				7B9F0FF41944B0FF00249A4C /* ConfigurationClass.m in Sources */,
+				7B9F07191943A00700771ADF /* PickerTableViewController.m in Sources */,
+				7B9F0FF21944705C00249A4C /* RegistrationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +486,7 @@
 				7B9F070A194390FB00771ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B9F070B194390FB00771ADF /* Build configuration list for PBXNativeTarget "Fantasy LeagueTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +495,7 @@
 				7B9F070D194390FB00771ADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
